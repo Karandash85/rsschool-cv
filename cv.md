@@ -23,3 +23,18 @@
 
 **Additional skills:**
 * Windows
+
+## Sample code
+**In Python**
+```
+import itertools
+
+def permutations(string):
+    B = []
+    for item in itertools.permutations(string, len(string)):
+        if (''.join(item)) not in B and len(''.join(item)) == len(string):
+            B.append(''.join(item))
+    return B
+```
+## Work experience
+none
