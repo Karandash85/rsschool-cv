@@ -125,3 +125,7 @@ figcaption {
     outline: none;
     transition: 0.2s;
 }
+
+code {
+    align-content: flex-start;
+}
