@@ -1,5 +1,6 @@
 H1 {
     margin: 5px;
+    text-align: center;
 }
 
 H2 {
@@ -17,20 +18,44 @@ body {
     margin: 0 auto;
    }
 
-header {
+.plat {
     background-color: blanchedalmond;
     margin-top: 15px;
     margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15 auto;
+    border-radius: 10px;
 }
 
-#name {
-    color: black;
+header li a{
+    font-family: Arial Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    color: #000000;
+    margin-right: 30px;
+    text-decoration: none;
+    white-space: nowrap;
+} 
+
+#nav_table {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
 }
 
 .content {
     text-align: left;
     padding: 1px 10px 5px 10px;
-    }
+}
 
 footer {
     display: flex;
@@ -45,6 +70,7 @@ footer {
     text-align: right;
     border-radius: 4px;
     background-color: blanchedalmond;
+    border-radius: 10px;
 }
 
 figure {
@@ -90,7 +116,7 @@ figcaption {
     display: none;
     position: fixed;
     bottom: 100px;
-    right: 30px;
+    right: 55px;
     z-index: 99; 
     width: 50px;
     height: 50px;
