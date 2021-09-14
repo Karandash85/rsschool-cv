@@ -28,10 +28,16 @@ section {
     }
 
 footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     font-style: italic;
     font-size: small;
     margin: 0 10px 20px 10px;
-    padding: 0 10px 20px 10px;
+    padding: 10px;
     border: black ;
     text-align: right;
+    border-radius: 4px;
+    background-color: blanchedalmond;
 }
