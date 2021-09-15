@@ -13,19 +13,27 @@
 
 <body class="content">
     <div class="content">
+
         <header>
-            <nav class="plat">
-                <ul id="nav_table">
-                    <li><a href="#contacts">Contacts</a></li>
-                    <li><a href="#about_me">About me</a></li>
-                    <li><a href="#my_skills">Skills</a></li>
-                    <li><a href="#sample_code">Sample code</a></li>
-                    <li><a href="#work_experience">Experience</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#english_level">English level</a></li>
-                </ul>
-            </nav>
-            <h1>Dzianis Saidlo</h1>
+            <div class="wrapper">
+                <input type="checkbox" id="check-menu">
+                <label for="check-menu">
+                    <h1>Dzianis Saidlo</h1>
+                </label>
+                <div class="burger-line first"></div>
+                <div class="burger-line second"></div>
+                <div class="burger-line third"></div>
+                <div class="burger-line fourth"></div>
+                <nav class="main-menu">
+                    <a href="#contacts">Contacts</a>
+                    <a href="#about_me">About me</a>
+                    <a href="#my_skills">Skills</a>
+                    <a href="#sample_code">Sample code</a>
+                    <a href="#work_experience">Experience</a>
+                    <a href="#education">Education</a>
+                    <a href="#english_level">English level</a>
+                </nav>
+            </div>
         </header>
         <figure>
             <img src="Programmer.jpg"
@@ -34,7 +42,7 @@
         </figure>
         
         <main>
-            <section class="contacts">
+            <div class="contacts">
                 <h2 id="contacts">Contacts</h2>
                 <ul>
                     <li><strong>Tel:</strong> +375295302333</li>
@@ -42,8 +50,8 @@
                     <li><strong>Discord:</strong> Dzianis Saidlo (@Karandash85) (rs-school server)</li>
                     <li><strong>VK:</strong> karandash85</li>
                 </ul>
-            </section>
-            <section class="about_me">
+            </div>
+            <div class="about_me">
                 <h2 id="about_me">About me</h2>
                 <p><strong>Brief personal information:</strong> I am 35 years old, have a higher education, not married, no
                     children. I love to constantly learn something new, improve and achieve my goals.</p>
@@ -56,8 +64,8 @@
                     <li>Honesty</li>
                     <li>No bad habits</li>
                 </ol>
-            </section>
-            <section class="my_skills">
+            </div>
+            <div class="my_skills">
                 <h2 id="my_skills">My skills</h2>
                 <p><strong>Main skills:</strong></p>
                 <ul>
@@ -70,41 +78,41 @@
                 <ul>
                     <li>Windows</li>
                 </ul>
-            </section>
-            <section class="sample_code">
+            </div>
+            <div class="sample_code">
                 <h2 id="sample_code">Sample code</h2>
                 <p>
                     <h4>In Python</h4>
                 </p>
                     <pre>
                         <code class="html">
-                            import itertools
+                            "import itertools
                             def permutations(string):
                                 B = []
                                 for item in itertools.permutations(string len(string)):
                                     if ''.join(item)) not in B and len(''.join(item)) == len(string):
                                     B.append(''.join(item))
-                                return B
+                                return B"
                         </code>
                     </pre>
-            </section>
-            <section class="work_experience">
+            </div>
+            <div class="work_experience">
                 <h2 id="work_experience">Work experience</h2>
                 <p>none</p>
-            </section>
+            </div>
 
-            <section class="education">
+            <div class="education">
                 <h2 id="education">Education</h2>
                 <ol>
                     <li><a href="https://praktikum.yandex.ru/profile/backend-developer/">Яндекс-практикум: Python-разработчик</a>
                     </li>
                     <li><a href="https://hyperskill.org/onboarding/tracks/2">JetBrains Academy: Python Developer</a></li>
                 </ol>
-            </section>
-            <section class="english_level">
+            </div>
+            <div class="english_level">
                 <h2 id="english_level">English level</h2>
                 <p>Pre-Intermediate - A2. <br> I always trying to take some time for practicing my english.</p>
-            </section>
+            </div>
 
         </main>
     </div>
