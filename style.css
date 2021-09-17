@@ -133,6 +133,15 @@ pre {
     font-family: monospace;
     white-space: pre;
     margin: 0;
+    height: 120px;
+}
+
+code {
+    margin: 5px;
+}
+
+.sample_code h4 {
+    margin-bottom: 0;
 }
 
 /* Burger-menu */
