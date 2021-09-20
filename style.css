@@ -75,6 +75,7 @@ footer {
     border-radius: 4px;
     background-color: blanchedalmond;
     border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 figure {
@@ -84,6 +85,7 @@ figure {
     padding: 5px;
     max-width: 220px;
     margin: auto;
+    flex-direction: column;
 }
 
 figcaption {
@@ -153,7 +155,7 @@ code {
     background-color: blanchedalmond;
     position: relative;
     color: black;
-    text-align: left;
+    text-align: center;
     height: 40px;
     box-sizing: border-box;
     border-radius: 5px;
@@ -174,6 +176,10 @@ label {
     cursor: pointer;
     z-index: 2;
     line-height: 30px;
+}
+
+label {
+    line-height: 37px;
 }
 
 .burger-line {
@@ -217,6 +223,11 @@ label {
     text-align: center;
     height: 20px;
     line-height: 20px;
+}
+
+.git-link {
+    font-weight: 600;
+    font-style: normal;
 }
 
 #check-menu:checked ~ .main-menu {
