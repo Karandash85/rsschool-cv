@@ -3,76 +3,130 @@
 
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
 </head>
 
-<body>
+<body class="content">
     <div class="content">
-        <header class="content">
-            <h1 id="dzianis-saidlo">Dzianis Saidlo</h1>
+        <header>
+            <div class="wrapper">
+                <input type="checkbox" id="check-menu">
+                <label for="check-menu">
+                    MENU
+                </label>
+                <div class="burger-line first"></div>
+                <div class="burger-line second"></div>
+                <div class="burger-line third"></div>
+                <div class="burger-line fourth"></div>
+                <nav class="main-menu">
+                    <a href="#contacts">Contacts</a>
+                    <a href="#about_me">About me</a>
+                    <a href="#my_skills">Skills</a>
+                    <a href="#sample_code">Sample code</a>
+                    <a href="#work_experience">Experience</a>
+                    <a href="#education">Education</a>
+                    <a href="#english_level">English level</a>
+                </nav>
+            </div>
         </header>
-        <img src="http://www.filipoc.ru/attaches/posts/interesting/2013-09-25/professiya-programmist/mini/programmist-1.jpg" alt="photo" title="My photo">
+        <figure>
+            <h1>Dzianis Saidlo</h1>
+            <img src="Programmer.jpg"
+                 alt="My photo">
+            <figcaption>I'm in future</figcaption>
+        </figure>
         
         <main>
-            <h2 id="contacts">Contacts</h2>
-            <ul>
-                <li><strong>Tel:</strong> +375295302333</li>
-                <li><strong>E-mail:</strong> c.o.den@tut.by</li>
-                <li><strong>Discord:</strong> Dzianis Saidlo (@Karandash85) (rs-school server)</li>
-                <li><strong>VK:</strong> karandash85</li>
-            </ul>
-            <h2 id="about-me">About me</h2>
-            <p><strong>Brief personal information:</strong> I am 35 years old, have a higher education, not married, no
-                children. I love to constantly learn something new, improve and achieve my goals.</p>
-            <p><strong>My strengths:</strong></p>
-            <ol>
-                <li>Fast learning</li>
-                <li>Dislike for low-quality work</li>
-                <li>Hard work</li>
-                <li>Curiosity</li>
-                <li>Honesty</li>
-                <li>No bad habits</li>
-            </ol>
-            <h2 id="my-skills">My skills</h2>
-            <p><strong>Main skills:</strong></p>
-            <ul>
-                <li>Python + Django</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Git</li>
-            </ul>
-            <p><strong>Additional skills:</strong></p>
-            <ul>
-                <li>Windows</li>
-            </ul>
-            <h2 id="sample-code">Sample code</h2>
-            <p><strong>In Python</strong></p>
+            <div class="contacts">
+                <h2 id="contacts">Contacts</h2>
+                <ul>
+                    <li><strong>Tel:</strong> +375295302333</li>
+                    <li><strong>E-mail:</strong> c.o.den@tut.by</li>
+                    <li><strong>Discord:</strong> Dzianis Saidlo (@Karandash85) (rs-school server)</li>
+                    <li><strong>VK:</strong> karandash85</li>
+                </ul>
+            </div>
+            <div class="about_me">
+                <h2 id="about_me">About me</h2>
+                <h4>Brief personal information:</h4>
+                <p>I am 35 years old, have a higher education, not married, no
+                    children. I love to constantly learn something new, improve and achieve my goals.</p>
+                <h4>My strengths:</h4>
+                <ol>
+                    <li>Fast learning</li>
+                    <li>Dislike for low-quality work</li>
+                    <li>Hard work</li>
+                    <li>Curiosity</li>
+                    <li>Honesty</li>
+                    <li>No bad habits</li>
+                </ol>
+            </div>
+            <div class="my_skills">
+                <h2 id="my_skills">My skills</h2>
+                <h4>Main skills:</h4>
+                <ul>
+                    <li>Python + Django</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Git</li>
+                </ul>
+                <p><strong>Additional skills:</strong></p>
+                <ul>
+                    <li>Windows</li>
+                </ul>
+            </div>
+            <div class="sample_code">
+                <h2 id="sample_code">Sample code</h2>
+                <h4>In Python</h4>
                 <pre>
-                import itertools
-                        def permutations(string):
-                            B = []
-                            for item in itertools.permutations(string len(string)):
-                                if ''.join(item)) not in B and len(''.join(item)) == len(string):
-                                B.append(''.join(item))
-                            return B
+                    <code class="html">
+import itertools
+def permutations(string):
+    B = []
+    for item in itertools.permutations(string len(string)):
+        if ''.join(item)) not in B and len(''.join(item)) == len(string):
+        B.append(''.join(item))
+    return B
+                    </code>
                 </pre>
-            <h2 id="work-experience">Work experience</h2>
-            <p>none</p>
-            <h2 id="education">Education</h2>
-            <ol>
-                <li><a href="https://praktikum.yandex.ru/profile/backend-developer/">Яндекс-практикум: Python-разработчик</a>
-                </li>
-                <li><a href="https://hyperskill.org/onboarding/tracks/2">JetBrains Academy: Python Developer</a></li>
-            </ol>
-            <h2 id="english-level">English level</h2>
-            <p>Pre-Intermediate - A2 I always trying to take some time for practicing my english.</p>
+            </div>
+            <div class="work_experience">
+                <h2 id="work_experience">Work experience</h2>
+                <p>none</p>
+            </div>
+
+            <div class="education">
+                <h2 id="education">Education</h2>
+                <ol>
+                    <li><a href="https://praktikum.yandex.ru/profile/backend-developer/">Яндекс-практикум: Python-разработчик</a>
+                    </li>
+                    <li><a href="https://hyperskill.org/onboarding/tracks/2">JetBrains Academy: Python Developer</a></li>
+                </ol>
+            </div>
+            <div class="english_level">
+                <h2 id="english_level">English level</h2>
+                <p>Pre-Intermediate - A2. <br> I always trying to take some time for practicing my english.</p>
+            </div>
+
         </main>
     </div>
+    <button id="scrollToTop" class="btn btn--to-top" title="Go to top" type="button">Top</button>
     <footer>
-        Copyright Dzianis Saidlo
+        <span class="git-link">
+            ©2021 by <a href="https://github.com/Karandash85">Dzianis Saidlo</a>
+        </span>
+        <span>
+            <a href="https://rs.school/js/">
+                <img src="https://rs.school/images/rs_school_js.svg" alt="Ссылка на курс «JavaScript/Front-end»" height="26">
+            </a>
+        </span>
     </footer>
+    <script src="script.js"></script>
 </body>
-
 </html>
