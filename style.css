@@ -10,7 +10,10 @@ H2 {
     padding: 5px 5px 5px 10px;
     border-radius: 5px;
     font-family: 'Quicksand', sans-serif;
-    
+}    
+
+H2 {
+    background-color: rgb(90, 191, 216);
 }
 
 body {
@@ -266,3 +269,31 @@ label {
     }
     
 }
+=======
+    margin: 0 auto;
+   }
+   
+section {
+    width: 750px;
+    font-family: Arial Helvetica, sans-serif;
+    color: rgb(37, 37, 37);
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin: 10px 10px 10px 10px;
+    position: relative;
+    top: 10px;
+    }
+.content {
+    text-align: left;
+    padding: 1px 10px 5px 10px;
+    }
+
+footer {
+    font-style: italic;
+    font-size: small;
+    margin: 0 10px 20px 10px;
+    padding: 0 10px 20px 10px;
+    border: black ;
+    text-align: right;
+}
+
