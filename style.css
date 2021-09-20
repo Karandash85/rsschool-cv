@@ -2,12 +2,15 @@ H1 {
     margin: 5px;
     text-align: center;
     font-size: 2em;
+    font-family: 'Quicksand', sans-serif;
 }
 
 H2 {
     background-color: rgb(90, 191, 216);
     padding: 5px 5px 5px 10px;
     border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+    
 }
 
 body {
@@ -155,6 +158,7 @@ code {
     height: 40px;
     box-sizing: border-box;
     border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 #check-menu {
@@ -245,4 +249,20 @@ label {
     display: none;
 }
 
+.html {
+    white-space: pre-wrap;
+}
 
+@media (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    body {
+        width: 320px;
+    }
+    
+}
