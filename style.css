@@ -34,6 +34,10 @@ body {
     border-radius: 10px;
 }
 
+header {
+    position: sticky;
+}
+
 header li a{
     font-family: Arial Helvetica, sans-serif;
     font-style: normal;
@@ -137,11 +141,27 @@ pre {
     font-family: monospace;
     white-space: pre;
     margin: 0;
-    height: 130px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .sample_code h4 {
     margin-bottom: 0;
+}
+
+.work_experience h2 {
+    margin-top: 0;
+}
+
+.text {
+    margin-left: 10px;
+}
+
+li a {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 /* Burger-menu */
@@ -171,11 +191,7 @@ label {
     height: 100%;
     cursor: pointer;
     z-index: 2;
-    line-height: 30px;
-}
-
-label {
-    line-height: 37px;
+    line-height: 40px;
 }
 
 .burger-line {
@@ -265,8 +281,8 @@ label {
     };    
 }
 
-@media (max-width: 320px) {
+@media (max-width: 319px) {
     body {
-        width: 320px;
+        width: 319px;
     };
 }
