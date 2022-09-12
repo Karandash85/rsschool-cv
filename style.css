@@ -12,6 +12,7 @@ H2 {
     border-radius: 5px;
     font-family: 'Quicksand', sans-serif;
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 H2 {
@@ -19,6 +20,16 @@ H2 {
 >>>>>>> 7cb6516 (fix: readme file link)
 =======
 >>>>>>> 53ff134 (style.css fix)
+=======
+    text-align: left;
+    transition: text-align 1s;
+}
+
+h2:hover {
+    color: goldenrod;
+    background-color:rgb(0, 139, 109);
+    text-align: center;
+>>>>>>> c2c84f7 (fix: bags fixed)
 }
 
 body {

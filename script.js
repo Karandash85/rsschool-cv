@@ -24,3 +24,14 @@ scrollToTopButton.onclick = function(e) {
     e.preventDefault();
     scrollToTop();
 }
+
+
+function calculate() {
+
+}
+
+
+function findOdd(A) {
+    //happy coding!
+    return 0;
+  }
